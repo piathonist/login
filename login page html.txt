@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href= "khlogin.css">
+    
+</head>
+
+<body>
+  <nav class="navbar">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Why we?</a></li>
+      <li><a href="#">Contact us</a></li>
+      <div class="search">
+        <input type="text" name="search" id="search"
+         placeholder="Search this website">
+    </ul>
+    <search class="searchop"></search>
+  </nav>
+<div class="main">
+  <h2>LOGIN</h2>
+  <form action="https://www.google.com/" method="post">
+<div class="data">
+<input type="text" placeholder="username" name="username" id="data">
+</div>
+<div class="data"> 
+<input type="password" placeholder="password" name="password" id="data">
+</div>
+<center><input class="loginbox" type="submit" name="" value="Sign in">
+  <input class="loginbox" type="reset" name="" value="Reset">  
+</center>
+<div class="forgot">
+<center>
+  <!-- <input class="loginbox" type="" name="" value="Sign in">
+  -->
+  <input class="forgot" type="submit" name="" value="forgot password?">
+  <p class="about">ABOUT US</p>
+  <p class="para1">I student of MIT-WPU,kothrud,pune, 
+    started learning
+    web development an year ago and in my early days 
+    of learning I made this login page.
+
+  </p>
+</about>
+</para1>
+
+  <p class="about1">WHY WE?</p>
+  <p class="para2">Our approach is to combine our understanding
+     of user behavior with a commitment to meeting the business 
+     goals of our clients. We are proactive in our aftercare
+      service and will alert our customers of any malicious 
+      behavior that we find. Our staff is diverse and talented 
+      in all aspects of website technology and marketing, 
+      including content creation. We love what we do and it 
+      shows in the solutions we produce.</p>
+
+
+</center>
+</div>
+</form>
+</div>
+</body>
+</html>
